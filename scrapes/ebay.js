@@ -36,7 +36,7 @@ module.exports = async ({ browser, query, minPrice, maxPrice }) => {
         overall: getAverageOfListings(listings),
         onlySold: getAverageOfListings(listings.filter(l => l.sold))
     };
-    console.log(`${query}: found ${resultCount} completed listings${resultCount ? `with an average price of $${averages.overall} overall` : ''}\n`);
+    console.log(`${query}: found ${resultCount} completed listings${resultCount ? ` with an average price of $${averages.overall} overall` : ''}\n`);
     return {
         listings,
         resultCount,

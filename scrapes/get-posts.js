@@ -41,7 +41,7 @@ const getSinglePosts = async ({ browser, url }) => {
 
 
 
-module.exports = async ({ browser, url, maxPages = 10, lastScrape }) => {
+module.exports = async ({ browser, url, maxPages = 20, lastScrape }) => {
     let curPage = 1;
     let allPosts = [];
     let curUrl = url;

@@ -90,15 +90,27 @@ const getModel = ({ title, description }) => {
         'Yaesu',
         'Icom',
         'Palstar',
-        // 'LNR',
+        'LNR',
         'Elecraft',
         'Kenwood',
-        // 'Xiegu',
-        // 'IC',
-        // 'FT',
+        'DRAKE',
+        'Kachina',
+        'Collins',
+        'TEN-TEC',
+        'Alinco',
+        'Xiegu',
+        'Maxon',
+        'Heil',
+        'AOR',
+        'IC',
+        'FT',
     ];
 
-    const makesMatches = makes.map(make => getIndexValues(str, new RegExp(make, 'gi'))).flat().sort((a, b) => a.index - b.index);
+    const makesMatches = makes.map(make => 
+        getIndexValues(str, new RegExp(make, 'gi'))
+    )
+        .flat()
+        .sort((a, b) => a.index - b.index);
     if (!makesMatches.length) return;
     const [{ text: makeMatch, index, endIndex }] = makesMatches;
 
@@ -121,7 +133,7 @@ const getModel = ({ title, description }) => {
     const shouldIncludeSecond = countNumbersInString(second) >= 2;
     // console.log({
     //     second,
-    //     numerics,
+    //     count: countNumbersInString(second),
     //     shouldIncludeSecond
     // })
     const modelGuess = [
@@ -131,7 +143,9 @@ const getModel = ({ title, description }) => {
 
 
     if (!modelGuess || !countNumbersInString(modelGuess)) return;
-    const myGuess = [makeMatch, modelGuess].join(' ');
+    const myGuess = [makeMatch, modelGuess].join(
+        modelGuess.startsWith('-') ? '' : ' '
+    );
 
     // console.log({ makesMatches})
 

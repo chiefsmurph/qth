@@ -163,7 +163,8 @@ module.exports = async ({ url, lastScrape }) => {
             `and $${post.ebay.averages.overall} on eBay across ${post.ebay.resultCount} listings - ${post.ebay.url}`,
             `for a potential gain of $${post.analyzedEbay.diff} (${post.analyzedEbay.percent}%)`
         ].join('\n')).join('\n\n');
-        console.log(foundDealsString)
+        console.log(foundDealsString);
+        console.log('');
     }
        
     await browser.close();
