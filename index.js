@@ -4,8 +4,11 @@ const findGold = require('./find-gold');
 const sendEmail = require('./utils/send-email');
 
 const runGold = async () => {
+
+    console.log(`running find gold at ${(new Date()).toLocaleString()}...`);
     const { lastScrapes } = require('./status.json');
     const urls = Object.keys(lastScrapes);
+
     for (let url of urls) {
         const lastScrape = lastScrapes[url];
         const {
@@ -25,7 +28,6 @@ const runGold = async () => {
             fs.writeFileSync('./status.json', statusString, 'utf8');
         }
 
-        console.log(`completed gold search at ${(new Date()).toLocaleString()}...`);
         console.log(`newPostsSinceLastScrape: ${newPostsSinceLastScrape} & ofInterest: ${ofInterest}`);
         if (foundDealsString) {
             await sendEmail(
@@ -36,9 +38,9 @@ const runGold = async () => {
         }
         console.log('');
     }
+
 };
 
 
 runGold();
-
 setTimeout(runGold, 1000 * 60 * 60);    // every 30 minutes
