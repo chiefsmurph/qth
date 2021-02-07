@@ -15,13 +15,15 @@ const runGold = async () => {
             foundDealsString
         } = await findGold({ url, lastScrape });
         // update lastScrapes
-        lastScrapes[url] = mostRecentListingId;
-        const newStatus = {
-            ...require('./status.json'),
-            lastScrapes
-        };
-        const statusString = JSON.stringify(newStatus, null, 2);
-        fs.writeFileSync('./status.json', statusString, 'utf8');
+        if (mostRecentListingId) {
+            lastScrapes[url] = mostRecentListingId;
+            const newStatus = {
+                ...require('./status.json'),
+                lastScrapes
+            };
+            const statusString = JSON.stringify(newStatus, null, 2);
+            fs.writeFileSync('./status.json', statusString, 'utf8');
+        }
 
         console.log(`completed gold search at ${(new Date()).toLocaleString()}...`);
         console.log(`newPostsSinceLastScrape: ${newPostsSinceLastScrape} & ofInterest: ${ofInterest}`);
