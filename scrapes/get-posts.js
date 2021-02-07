@@ -41,11 +41,12 @@ const getSinglePosts = async ({ browser, url }) => {
 
 
 
-module.exports = async ({ browser, url, maxPages = 10 }) => {
+module.exports = async ({ browser, url, maxPages = 10, lastScrape }) => {
     let curPage = 1;
     let allPosts = [];
     let curUrl = url;
-    while (curPage <= maxPages) {
+    let lastScrapeIndex = -1;
+    while (curPage <= maxPages && lastScrapeIndex < 0) {
         console.log(`scraping ${curUrl} (page ${curPage})`);
         const { posts, nextPage } = await getSinglePosts({
             browser,
@@ -55,8 +56,11 @@ module.exports = async ({ browser, url, maxPages = 10 }) => {
             ...allPosts,
             ...posts
         ];
+        lastScrapeIndex = allPosts.findIndex(post => post.listingId === lastScrape);
+        console.log({ lastScrapeIndex})
         curPage++;
         curUrl = nextPage;
     }
-    return allPosts;
+    const filteredToLastScrape = lastScrapeIndex > -1 ? allPosts.slice(0, lastScrapeIndex) : allPosts;
+    return filteredToLastScrape;
 };
