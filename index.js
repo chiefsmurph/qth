@@ -1,15 +1,28 @@
+const fs = require('fs');
+
 const findGold = require('./find-gold');
-const status = require('./status.json');
 const sendEmail = require('./utils/send-email');
 
 const runGold = async () => {
-    const urls = Object.keys(status.lastScrapes);
+    const { lastScrapes } = require('./status.json');
+    const urls = Object.keys(lastScrapes);
     for (let url of urls) {
+        const lastScrape = lastScrapes[url];
         const {
+            mostRecentListingId,
             newPostsSinceLastScrape,
             ofInterest,
             foundDealsString
-        } = await findGold({ url });
+        } = await findGold({ url, lastScrape });
+        // update lastScrapes
+        lastScrapes[url] = mostRecentListingId;
+        const newStatus = {
+            ...require('./status.json'),
+            lastScrapes
+        };
+        const statusString = JSON.stringify(newStatus, null, 2);
+        fs.writeFileSync('./status.json', statusString, 'utf8');
+
         console.log(`completed gold search at ${(new Date()).toLocaleString()}...`);
         console.log(`newPostsSinceLastScrape: ${newPostsSinceLastScrape} & ofInterest: ${ofInterest}`);
         if (foundDealsString) {
@@ -17,6 +30,7 @@ const runGold = async () => {
                 `NEW GOLD FOUND`,
                 foundDealsString
             );
+            console.log(foundDealsString);
         }
         console.log('');
     }

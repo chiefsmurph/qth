@@ -57,7 +57,7 @@ module.exports = async ({ browser, url, maxPages = 10, lastScrape }) => {
             ...posts
         ];
         lastScrapeIndex = allPosts.findIndex(post => post.listingId === lastScrape);
-        console.log({ lastScrapeIndex})
+        // console.log({ lastScrapeIndex})
         curPage++;
         curUrl = nextPage;
     }

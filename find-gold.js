@@ -1,16 +1,20 @@
 const puppeteer = require('puppeteer');
-const fs = require('fs');
 
 const getPosts = require('./scrapes/get-posts');
 const analyzePost = require('./utils/analyze-post');
 const getEbay = require('./scrapes/ebay');
 
-module.exports = async ({ url }) => {
+function wait(ms) {
+    var start = Date.now(),
+        now = start;
+    while (now - start < ms) {
+      now = Date.now();
+    }
+    return true;
+}
 
+module.exports = async ({ url, lastScrape }) => {
 
-    const status = require('./status.json');
-    const { lastScrapes } = status;
-    const lastScrape = lastScrapes[url];
 
     const maxPages = 10;
     const minPrice = 200;
@@ -23,7 +27,7 @@ module.exports = async ({ url }) => {
     console.log(`starting by getting all the posts from QTH starting at ${url}...`);
     console.log(`going to go back ${maxPages} pages....`);
     console.log(`minPrice: $${minPrice} & maxPrice: $${maxPrice}`);
-    console.log(`lastScrape: ${lastScrape}`);
+    lastScrape && console.log(`lastScrape: ${lastScrape}`);
 
     console.log('initializing puppeteer...');
     const browser = await puppeteer.launch({ headless: true });
@@ -50,7 +54,7 @@ module.exports = async ({ url }) => {
     console.log("----------------------------------------------------------------------\n");
     const analyzed = posts.map(post => ({
         ...post,
-        analyzed: analyzePost(post)
+        analyzed: wait(30) && analyzePost(post)
     }));
 
     console.log('');
@@ -77,11 +81,13 @@ module.exports = async ({ url }) => {
         const curCount = ofInterest.length;
         console.log(`starting to filter by "${reasonToIgnore}"....... current count: ${curCount}`);
         const fn = reasonsToIgnore[reasonToIgnore];
+        wait(20)
         ofInterest = ofInterest.filter(post => {
             const shouldIgnore = fn(post);
             if (shouldIgnore) {
                 console.log(`ignoring ${post.title} because "${reasonToIgnore}"`);
             }
+            wait(10);
             return !shouldIgnore;
         });
         console.log(`removed ${curCount - ofInterest.length} posts because "${reasonToIgnore}"`);
@@ -163,17 +169,9 @@ module.exports = async ({ url }) => {
     await browser.close();
 
 
-    const newStatus = {
-        ...status,
-        lastScrapes: {
-            ...lastScrapes,
-            [url]: posts[0].listingId
-        }
-    };
-    const statusString = JSON.stringify(newStatus, null, 2);
-    fs.writeFileSync('./status.json', statusString, 'utf8');
 
     return {
+        mostRecentListingId: posts[0].listingId,
         newPostsSinceLastScrape: posts.length,
         ofInterest: ofInterest.length,
         ...foundDeals.length && {
