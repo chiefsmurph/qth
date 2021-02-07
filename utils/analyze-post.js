@@ -76,48 +76,83 @@ const getPrice = ({ title, description }) => {
 };
 
 
+function isNumeric(str) {
+    if (typeof str != "string") return false // we only process strings!  
+    return !isNaN(str) && // use type coercion to parse the _entirety_ of the string (`parseFloat` alone does not do this)...
+            !isNaN(parseFloat(str)) // ...and ensure strings of whitespace fail
+}
+
+
 
 const getModel = ({ title, description }) => {
-    const str = JSON.stringify({ title, description });
+    const str = [title, description].join(' ');
     const makes = [
         'Yaesu',
         'Icom',
         'Palstar',
-        'LNR',
+        // 'LNR',
         'Elecraft',
         'Kenwood',
-        'Xiegu',
-        'IC',
-        'FT',
+        // 'Xiegu',
+        // 'IC',
+        // 'FT',
     ];
 
     const makesMatches = makes.map(make => getIndexValues(str, new RegExp(make, 'gi'))).flat().sort((a, b) => a.index - b.index);
     if (!makesMatches.length) return;
     const [{ text: makeMatch, index, endIndex }] = makesMatches;
-    const substr = str.substring(endIndex + 1);
 
-    const modelGuess = substr.split(' ')[0].trim();
+
+    let substr = str.substring(endIndex);
+
+    const endMatches = getIndexValues(substr, new RegExp('([,.])', 'g'));
+    // console.log({ endMatches})
+    const indexOfEnd = endMatches.length ? endMatches[0].index : 10;
+
+    // console.log({ substr, indexOfEnd }) // || 10
+
+    const [next, second] = substr.substring(0, indexOfEnd).trim().split(' ');
+    // console.log({
+    //     next, second 
+    // })
+    
+    // .map(w => w.trim()).slice(0, 2);
+    const countNumbersInString = string => string && string.split('').filter(isNumeric).length;
+    const shouldIncludeSecond = countNumbersInString(second) >= 2;
+    // console.log({
+    //     second,
+    //     numerics,
+    //     shouldIncludeSecond
+    // })
+    const modelGuess = [
+        next,
+        ...shouldIncludeSecond ? [second] : []
+    ].join(' ');
+
+
+    if (!modelGuess || !countNumbersInString(modelGuess)) return;
     const myGuess = [makeMatch, modelGuess].join(' ');
 
     // console.log({ makesMatches})
 
-    console.log(JSON.stringify({
-        str,
-        makeMatch,
-        substr,
-        myGuess
-    }, null, 2));
+    // console.log(JSON.stringify({
+    //     str,
+    //     makeMatch,
+    //     substr,
+    //     myGuess
+    // }, null, 2));
     return myGuess;
 };
 
 
 
 module.exports = post => {
-
+    console.log(`analyzing ${post.title}.....`);
     return {
-        ...post,
+        isParts: ['for parts', 'repair'].some(str => JSON.stringify(post).includes(str)),
         isWtb: isWtb(post),
         price: getPrice(post),
-        model: getModel(post)
+        model: getModel(post),
+        url: `https://swap.qth.com/send-to-friend.php?counter=${post.listingId}`
     }
 };

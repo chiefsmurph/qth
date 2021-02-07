@@ -18,15 +18,15 @@ const getSinglePosts = async ({ browser, url }) => {
         );
         let posts = els.chunk_inefficient(4);
         posts = posts.map(([title, description, listingInfo, contact]) => ({
-            title: title.textContent,
-            description: description.textContent,
+            title: title.textContent.trim(),
+            description: description.textContent.trim(),
             listingInfo: listingInfo.textContent,
             contact: contact.textContent
         }));
         posts = posts.map(({ title, description, listingInfo }) => ({
             title,
             description,
-            listingNumber: Number(listingInfo.split('#').pop().split(' -').shift()),
+            listingId: Number(listingInfo.split('#').pop().split(' -').shift()),
             date: listingInfo.split('Submitted on ').pop().split(' by').shift(''),
         }))
         return posts;
@@ -41,17 +41,16 @@ const getSinglePosts = async ({ browser, url }) => {
 
 
 
-module.exports = async ({ browser, url, pagesToTraverse = 2 }) => {
+module.exports = async ({ browser, url, maxPages = 10 }) => {
     let curPage = 1;
     let allPosts = [];
     let curUrl = url;
-    while (curPage <= pagesToTraverse) {
+    while (curPage <= maxPages) {
         console.log(`scraping ${curUrl} (page ${curPage})`);
         const { posts, nextPage } = await getSinglePosts({
             browser,
             url: curUrl,
         });
-        console.log('here now')
         allPosts = [
             ...allPosts,
             ...posts

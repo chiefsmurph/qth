@@ -1,0 +1,471 @@
+
+----------------------------------------------------------------------
+INITIALIZING PROGRAM...
+----------------------------------------------------------------------
+
+starting by getting all the posts from QTH starting at https://swap.qth.com/c_radiovhf.php...
+going to go back 10 pages....
+minPrice: $110 & maxPrice: $3000
+initializing puppeteer...
+
+----------------------------------------------------------------------
+SCRAPING POSTS FROM QTH.com
+----------------------------------------------------------------------
+
+scraping https://swap.qth.com/c_radiovhf.php (page 1)
+scraping https://swap.qth.com/c_radiovhf.php?page=2 (page 2)
+scraping https://swap.qth.com/c_radiovhf.php?page=3 (page 3)
+scraping https://swap.qth.com/c_radiovhf.php?page=4 (page 4)
+scraping https://swap.qth.com/c_radiovhf.php?page=5 (page 5)
+scraping https://swap.qth.com/c_radiovhf.php?page=6 (page 6)
+scraping https://swap.qth.com/c_radiovhf.php?page=7 (page 7)
+scraping https://swap.qth.com/c_radiovhf.php?page=8 (page 8)
+scraping https://swap.qth.com/c_radiovhf.php?page=9 (page 9)
+scraping https://swap.qth.com/c_radiovhf.php?page=10 (page 10)
+
+----------------------------------------------------------------------
+ANALYZING POSTS...
+----------------------------------------------------------------------
+
+analyzing YAESU FTM-7250DR Wires-X  VHF/UHF  $175.....
+analyzing Motorola Handhelds.....
+analyzing For sale: iCOM 970H.....
+analyzing PAR VHFTN152-158 Notch Filter.....
+analyzing Power Cord.....
+analyzing ICOM IC-38A 220MHz FM TRANSCEIVER.....
+analyzing WANTED:  IC-820H OR IC-821H.....
+analyzing Yaesu  Ft-2DR handheld ........
+analyzing For Sale: Motorola Max Trac 300 Radio.....
+analyzing For Sale: Motorola Desk Mic.....
+analyzing Yaesu FT-208, Two meter HT For Sale.....
+analyzing Icom ut34 tone board  ut34px piexx.....
+analyzing FOR SALE: Bandpass Filter.....
+analyzing For sale kenwood at50 tuner.....
+analyzing Icom IC-3AT 220.00 MHz & IC-2AT 2 meter.....
+analyzing FOR SALE: Kenwood TM-D710A VHF/UHF.....
+analyzing 2 Meter All Mode Mobile Kenwood TR-9000.....
+analyzing Icom IC-W32A VHF UHF handheld talkie.....
+analyzing WTB: TT 525D Argosy II final amp unit.....
+analyzing FS:  Icom IC-9700.....
+analyzing VoCom VHF 2w in 25w out Power Amplifier.....
+analyzing Original Boxes for Kenwood, Yaesu etc......
+analyzing Service Manual for RadioShack HTX-242.....
+analyzing VGC 7500 Wireless Bluetooth Microphone.....
+analyzing WANT MOTOROLA XPR5550 VHF.....
+analyzing For sale: Brand new Yaesu Ft7900R/E.....
+analyzing FOR SALE: ICOM IC-2000 TWO METER RADIO.....
+analyzing Icom IC-910H.....
+analyzing FS-ANTENNA EXTENDER.....
+analyzing FS Drake.....
+analyzing baofeng vhf/uhf radio.....
+analyzing Yaesu FT-2700 Dual Band FM Transceiver.....
+analyzing WANTED: VHF/UHF SCANNER W/ DECODER......
+analyzing Kenwood 2M,DMR,SX-200,SEC 1223 P/Supply.....
+analyzing Anytone AT-D878UV Plus DMR/Analog.....
+analyzing F/S Motorola XPR 4550 Analog/Digital UHF.....
+analyzing Uniden BCD436HP scanner.....
+analyzing FS-FT2900R.....
+analyzing Seeking FNB-8 battery box for Yaesu 690R.....
+analyzing Kenwood TM-D710G.....
+analyzing For sale Icom 2720H.....
+analyzing LIKE NEW Anytone AT-D578UVIIIPRO $ 360.....
+analyzing FOR SALE: UNIDEN HOME PATROL -1.....
+analyzing Kenwood TM221a  2 meter mobile.....
+analyzing WTB - Yaesu FTM-3207DR.....
+analyzing Kenwood TR-7400A 2-meter Transceiver.....
+analyzing Drake TR-22  FM Transceiver.....
+analyzing For Sale Alinco DJ-MD5TGP Handheld.....
+analyzing WTB  Elecraft XV Transverter for parts......
+analyzing Baofeng UV-5R.....
+analyzing 2 MOTOROLA XTS5000 MODEL I VHF 136-174mh.....
+analyzing 2 MOTOROLA XTS5000 MODEL I VHF 136-174mh.....
+analyzing WTB Looking for a 1.2 GHz rep Duplexer.....
+analyzing PENDING: W1GHZ transverters for 903&1296.....
+analyzing FOR SALE: Kenwood TM-D710A.....
+analyzing FOR SALE: CS-800 UHF MOBILE DMR/ANALOG.....
+analyzing FOR SALE: 2 YAESU VHF/UHF radios.....
+analyzing Kenwood TM 741-a.....
+analyzing Kenwood TH 741A.....
+analyzing SINCLAIR Q202GR VHF DUPLEXER.....
+analyzing BAOFENG UV-5R VHF/UHF W/HTH HEADSET.....
+analyzing Valor speaker sds 100/436.....
+analyzing Yaesu/Vertex VX-150.....
+analyzing 2-meter transverter.....
+analyzing Bearcat BC-210 Scanner For Sale.....
+analyzing Standard SR-C146 A, 2 meter HT FS.....
+analyzing Wanted Yaesu FT 8000 R for parts.....
+analyzing Baofeng DM1801 VHF/UHF DMR & MMDVM Duple.....
+analyzing CLEGG VENUS / APOLLO 6 MTR STATION.....
+analyzing FOR SALE-RC96 Rptr Cntrl Price Reduced.....
+analyzing Yaesu FTM-10R.....
+analyzing Yaesu FT 726R 2m-6m-430.....
+analyzing ICOM IC-2300H 2 METER RADIO.....
+analyzing Motorola XPR 8400 DMR/ Analog Repeater.....
+analyzing TYT 9800 10/6/2 Meter + 70cm Quad Band.....
+analyzing FS: Daiwa CN-103L UHF/VHF SWR/Wattmeter.....
+analyzing icom 51A plus 2.....
+analyzing WTT: Icom IC-9700  for Icom IC-705.....
+analyzing For Sale - 2 meter mobile tranceiver.....
+analyzing Wanted: Lafayette HA-750 6 Meter Mobile.....
+analyzing For sale: ICOM IC910h, vhf/uhf/1.2ghz.....
+analyzing F/S KENWOOD DESK CHARGER.....
+analyzing Motorola XTS 5000.....
+analyzing Motorola HT 1000.....
+analyzing DAIWA CN801 HP type WATT METER 2KW.....
+analyzing WTB/Trade.....
+analyzing trade Uniden BCD-436HP for BCD-536HP.....
+analyzing WTB  10 GHz Gear.....
+analyzing Kenwood 742A.....
+analyzing ICOM IC-2300H.....
+analyzing For sale Swan 250C.....
+analyzing For Sale Hallicrafter SR42A and HA26.....
+analyzing GE MVPs for sale.....
+analyzing KLM ECHO II w/book for sale.......
+analyzing TYT9800.....
+analyzing Icom MBF 1. mount.....
+analyzing VRN7500  UHF &VHF DUAL BAND  WITH VGC HM.....
+analyzing Icom IC-3200 VHF/UHF Techie Special.....
+analyzing Yaesu ft-7900.....
+analyzing FOR SALE Kenwood TR-7625.....
+
+
+----------------------------------------------------------------------
+FILTERING POSTS
+----------------------------------------------------------------------
+starting to filter by "is want to buy ad"....... current count: 100
+ignoring WANTED:  IC-820H OR IC-821H because "is want to buy ad"
+ignoring WTB: TT 525D Argosy II final amp unit because "is want to buy ad"
+ignoring FS Drake because "is want to buy ad"
+ignoring WANTED: VHF/UHF SCANNER W/ DECODER. because "is want to buy ad"
+ignoring WTB - Yaesu FTM-3207DR because "is want to buy ad"
+ignoring WTB  Elecraft XV Transverter for parts. because "is want to buy ad"
+ignoring WTB Looking for a 1.2 GHz rep Duplexer because "is want to buy ad"
+ignoring Wanted Yaesu FT 8000 R for parts because "is want to buy ad"
+ignoring Wanted: Lafayette HA-750 6 Meter Mobile because "is want to buy ad"
+ignoring WTB/Trade because "is want to buy ad"
+ignoring WTB  10 GHz Gear because "is want to buy ad"
+removed 11 posts because "is want to buy ad"
+----------------------------------------------------------------------
+starting to filter by "is for parts"....... current count: 89
+ignoring For sale: iCOM 970H because "is for parts"
+removed 1 posts because "is for parts"
+----------------------------------------------------------------------
+starting to filter by "could not detect price"....... current count: 88
+ignoring ICOM IC-38A 220MHz FM TRANSCEIVER because "could not detect price"
+ignoring For sale kenwood at50 tuner because "could not detect price"
+ignoring Original Boxes for Kenwood, Yaesu etc. because "could not detect price"
+ignoring WANT MOTOROLA XPR5550 VHF because "could not detect price"
+ignoring FOR SALE: ICOM IC-2000 TWO METER RADIO because "could not detect price"
+ignoring baofeng vhf/uhf radio because "could not detect price"
+ignoring Seeking FNB-8 battery box for Yaesu 690R because "could not detect price"
+ignoring ICOM IC-2300H 2 METER RADIO because "could not detect price"
+ignoring Motorola HT 1000 because "could not detect price"
+ignoring trade Uniden BCD-436HP for BCD-536HP because "could not detect price"
+ignoring ICOM IC-2300H because "could not detect price"
+ignoring GE MVPs for sale because "could not detect price"
+removed 12 posts because "could not detect price"
+----------------------------------------------------------------------
+starting to filter by "could not detect model"....... current count: 76
+ignoring Motorola Handhelds because "could not detect model"
+ignoring PAR VHFTN152-158 Notch Filter because "could not detect model"
+ignoring Power Cord because "could not detect model"
+ignoring For Sale: Motorola Max Trac 300 Radio because "could not detect model"
+ignoring For Sale: Motorola Desk Mic because "could not detect model"
+ignoring FOR SALE: Bandpass Filter because "could not detect model"
+ignoring VoCom VHF 2w in 25w out Power Amplifier because "could not detect model"
+ignoring Service Manual for RadioShack HTX-242 because "could not detect model"
+ignoring VGC 7500 Wireless Bluetooth Microphone because "could not detect model"
+ignoring FS-ANTENNA EXTENDER because "could not detect model"
+ignoring Anytone AT-D878UV Plus DMR/Analog because "could not detect model"
+ignoring F/S Motorola XPR 4550 Analog/Digital UHF because "could not detect model"
+ignoring Uniden BCD436HP scanner because "could not detect model"
+ignoring LIKE NEW Anytone AT-D578UVIIIPRO $ 360 because "could not detect model"
+ignoring FOR SALE: UNIDEN HOME PATROL -1 because "could not detect model"
+ignoring Drake TR-22  FM Transceiver because "could not detect model"
+ignoring For Sale Alinco DJ-MD5TGP Handheld because "could not detect model"
+ignoring Baofeng UV-5R because "could not detect model"
+ignoring 2 MOTOROLA XTS5000 MODEL I VHF 136-174mh because "could not detect model"
+ignoring 2 MOTOROLA XTS5000 MODEL I VHF 136-174mh because "could not detect model"
+ignoring PENDING: W1GHZ transverters for 903&1296 because "could not detect model"
+ignoring FOR SALE: CS-800 UHF MOBILE DMR/ANALOG because "could not detect model"
+ignoring FOR SALE: 2 YAESU VHF/UHF radios because "could not detect model"
+ignoring SINCLAIR Q202GR VHF DUPLEXER because "could not detect model"
+ignoring BAOFENG UV-5R VHF/UHF W/HTH HEADSET because "could not detect model"
+ignoring Valor speaker sds 100/436 because "could not detect model"
+ignoring 2-meter transverter because "could not detect model"
+ignoring Bearcat BC-210 Scanner For Sale because "could not detect model"
+ignoring Standard SR-C146 A, 2 meter HT FS because "could not detect model"
+ignoring Baofeng DM1801 VHF/UHF DMR & MMDVM Duple because "could not detect model"
+ignoring CLEGG VENUS / APOLLO 6 MTR STATION because "could not detect model"
+ignoring FOR SALE-RC96 Rptr Cntrl Price Reduced because "could not detect model"
+ignoring Motorola XPR 8400 DMR/ Analog Repeater because "could not detect model"
+ignoring TYT 9800 10/6/2 Meter + 70cm Quad Band because "could not detect model"
+ignoring FS: Daiwa CN-103L UHF/VHF SWR/Wattmeter because "could not detect model"
+ignoring For Sale - 2 meter mobile tranceiver because "could not detect model"
+ignoring F/S KENWOOD DESK CHARGER because "could not detect model"
+ignoring Motorola XTS 5000 because "could not detect model"
+ignoring DAIWA CN801 HP type WATT METER 2KW because "could not detect model"
+ignoring For sale Swan 250C because "could not detect model"
+ignoring For Sale Hallicrafter SR42A and HA26 because "could not detect model"
+ignoring KLM ECHO II w/book for sale.. because "could not detect model"
+ignoring TYT9800 because "could not detect model"
+ignoring Icom MBF 1. mount because "could not detect model"
+ignoring VRN7500  UHF &VHF DUAL BAND  WITH VGC HM because "could not detect model"
+removed 45 posts because "could not detect model"
+----------------------------------------------------------------------
+starting to filter by "price too low"....... current count: 31
+ignoring Yaesu FT-208, Two meter HT For Sale because "price too low"
+ignoring Icom ut34 tone board  ut34px piexx because "price too low"
+ignoring Icom IC-W32A VHF UHF handheld talkie because "price too low"
+ignoring FS:  Icom IC-9700 because "price too low"
+ignoring Kenwood TR-7400A 2-meter Transceiver because "price too low"
+ignoring Yaesu/Vertex VX-150 because "price too low"
+ignoring Icom IC-3200 VHF/UHF Techie Special because "price too low"
+removed 7 posts because "price too low"
+----------------------------------------------------------------------
+starting to filter by "price too high"....... current count: 24
+removed 0 posts because "price too high"
+----------------------------------------------------------------------
+starting to filter by "description too many dollars signs"....... current count: 24
+removed 0 posts because "description too many dollars signs"
+----------------------------------------------------------------------
+starting to filter by "model name too long"....... current count: 24
+removed 0 posts because "model name too long"
+----------------------------------------------------------------------
+after filtering out the ones I could not analyze......posts of interest: 24
+{
+  "notOfInterest": [
+    "title: Motorola Handhelds & url: https://swap.qth.com/send-to-friend.php?counter=1525613",
+    "title: For sale: iCOM 970H & url: https://swap.qth.com/send-to-friend.php?counter=1525594",
+    "title: PAR VHFTN152-158 Notch Filter & url: https://swap.qth.com/send-to-friend.php?counter=1525561",
+    "title: Power Cord & url: https://swap.qth.com/send-to-friend.php?counter=1524511",
+    "title: ICOM IC-38A 220MHz FM TRANSCEIVER & url: https://swap.qth.com/send-to-friend.php?counter=1525381",
+    "title: WANTED:  IC-820H OR IC-821H & url: https://swap.qth.com/send-to-friend.php?counter=1525544",
+    "title: For Sale: Motorola Max Trac 300 Radio & url: https://swap.qth.com/send-to-friend.php?counter=1523332",
+    "title: For Sale: Motorola Desk Mic & url: https://swap.qth.com/send-to-friend.php?counter=1523516",
+    "title: Yaesu FT-208, Two meter HT For Sale & url: https://swap.qth.com/send-to-friend.php?counter=1525509",
+    "title: Icom ut34 tone board  ut34px piexx & url: https://swap.qth.com/send-to-friend.php?counter=1510999",
+    "title: FOR SALE: Bandpass Filter & url: https://swap.qth.com/send-to-friend.php?counter=1523142",
+    "title: For sale kenwood at50 tuner & url: https://swap.qth.com/send-to-friend.php?counter=1525449",
+    "title: Icom IC-W32A VHF UHF handheld talkie & url: https://swap.qth.com/send-to-friend.php?counter=1525007",
+    "title: WTB: TT 525D Argosy II final amp unit & url: https://swap.qth.com/send-to-friend.php?counter=1522134",
+    "title: FS:  Icom IC-9700 & url: https://swap.qth.com/send-to-friend.php?counter=1525283",
+    "title: VoCom VHF 2w in 25w out Power Amplifier & url: https://swap.qth.com/send-to-friend.php?counter=1525390",
+    "title: Original Boxes for Kenwood, Yaesu etc. & url: https://swap.qth.com/send-to-friend.php?counter=1525086",
+    "title: Service Manual for RadioShack HTX-242 & url: https://swap.qth.com/send-to-friend.php?counter=1525085",
+    "title: VGC 7500 Wireless Bluetooth Microphone & url: https://swap.qth.com/send-to-friend.php?counter=1524587",
+    "title: WANT MOTOROLA XPR5550 VHF & url: https://swap.qth.com/send-to-friend.php?counter=1525352",
+    "title: FOR SALE: ICOM IC-2000 TWO METER RADIO & url: https://swap.qth.com/send-to-friend.php?counter=1525296",
+    "title: FS-ANTENNA EXTENDER & url: https://swap.qth.com/send-to-friend.php?counter=1525255",
+    "title: FS Drake & url: https://swap.qth.com/send-to-friend.php?counter=1525245",
+    "title: baofeng vhf/uhf radio & url: https://swap.qth.com/send-to-friend.php?counter=1525233",
+    "title: WANTED: VHF/UHF SCANNER W/ DECODER. & url: https://swap.qth.com/send-to-friend.php?counter=1525226",
+    "title: Anytone AT-D878UV Plus DMR/Analog & url: https://swap.qth.com/send-to-friend.php?counter=1525205",
+    "title: F/S Motorola XPR 4550 Analog/Digital UHF & url: https://swap.qth.com/send-to-friend.php?counter=1525145",
+    "title: Uniden BCD436HP scanner & url: https://swap.qth.com/send-to-friend.php?counter=1525174",
+    "title: Seeking FNB-8 battery box for Yaesu 690R & url: https://swap.qth.com/send-to-friend.php?counter=1525137",
+    "title: LIKE NEW Anytone AT-D578UVIIIPRO $ 360 & url: https://swap.qth.com/send-to-friend.php?counter=1525088",
+    "title: FOR SALE: UNIDEN HOME PATROL -1 & url: https://swap.qth.com/send-to-friend.php?counter=1524489",
+    "title: WTB - Yaesu FTM-3207DR & url: https://swap.qth.com/send-to-friend.php?counter=1524997",
+    "title: Kenwood TR-7400A 2-meter Transceiver & url: https://swap.qth.com/send-to-friend.php?counter=1524972",
+    "title: Drake TR-22  FM Transceiver & url: https://swap.qth.com/send-to-friend.php?counter=1524962",
+    "title: For Sale Alinco DJ-MD5TGP Handheld & url: https://swap.qth.com/send-to-friend.php?counter=1524813",
+    "title: WTB  Elecraft XV Transverter for parts. & url: https://swap.qth.com/send-to-friend.php?counter=1524945",
+    "title: Baofeng UV-5R & url: https://swap.qth.com/send-to-friend.php?counter=1524939",
+    "title: 2 MOTOROLA XTS5000 MODEL I VHF 136-174mh & url: https://swap.qth.com/send-to-friend.php?counter=1524902",
+    "title: 2 MOTOROLA XTS5000 MODEL I VHF 136-174mh & url: https://swap.qth.com/send-to-friend.php?counter=1524899",
+    "title: WTB Looking for a 1.2 GHz rep Duplexer & url: https://swap.qth.com/send-to-friend.php?counter=1524856",
+    "title: PENDING: W1GHZ transverters for 903&1296 & url: https://swap.qth.com/send-to-friend.php?counter=1524827",
+    "title: FOR SALE: CS-800 UHF MOBILE DMR/ANALOG & url: https://swap.qth.com/send-to-friend.php?counter=1523320",
+    "title: FOR SALE: 2 YAESU VHF/UHF radios & url: https://swap.qth.com/send-to-friend.php?counter=1523319",
+    "title: SINCLAIR Q202GR VHF DUPLEXER & url: https://swap.qth.com/send-to-friend.php?counter=1524708",
+    "title: BAOFENG UV-5R VHF/UHF W/HTH HEADSET & url: https://swap.qth.com/send-to-friend.php?counter=1523712",
+    "title: Valor speaker sds 100/436 & url: https://swap.qth.com/send-to-friend.php?counter=1524669",
+    "title: Yaesu/Vertex VX-150 & url: https://swap.qth.com/send-to-friend.php?counter=1524255",
+    "title: 2-meter transverter & url: https://swap.qth.com/send-to-friend.php?counter=1523724",
+    "title: Bearcat BC-210 Scanner For Sale & url: https://swap.qth.com/send-to-friend.php?counter=1524583",
+    "title: Standard SR-C146 A, 2 meter HT FS & url: https://swap.qth.com/send-to-friend.php?counter=1524582",
+    "title: Wanted Yaesu FT 8000 R for parts & url: https://swap.qth.com/send-to-friend.php?counter=1524578",
+    "title: Baofeng DM1801 VHF/UHF DMR & MMDVM Duple & url: https://swap.qth.com/send-to-friend.php?counter=1524543",
+    "title: CLEGG VENUS / APOLLO 6 MTR STATION & url: https://swap.qth.com/send-to-friend.php?counter=1524519",
+    "title: FOR SALE-RC96 Rptr Cntrl Price Reduced & url: https://swap.qth.com/send-to-friend.php?counter=1522300",
+    "title: ICOM IC-2300H 2 METER RADIO & url: https://swap.qth.com/send-to-friend.php?counter=1524421",
+    "title: Motorola XPR 8400 DMR/ Analog Repeater & url: https://swap.qth.com/send-to-friend.php?counter=1523607",
+    "title: TYT 9800 10/6/2 Meter + 70cm Quad Band & url: https://swap.qth.com/send-to-friend.php?counter=1523988",
+    "title: FS: Daiwa CN-103L UHF/VHF SWR/Wattmeter & url: https://swap.qth.com/send-to-friend.php?counter=1524365",
+    "title: For Sale - 2 meter mobile tranceiver & url: https://swap.qth.com/send-to-friend.php?counter=1524262",
+    "title: Wanted: Lafayette HA-750 6 Meter Mobile & url: https://swap.qth.com/send-to-friend.php?counter=1524253",
+    "title: F/S KENWOOD DESK CHARGER & url: https://swap.qth.com/send-to-friend.php?counter=1520634",
+    "title: Motorola XTS 5000 & url: https://swap.qth.com/send-to-friend.php?counter=1524099",
+    "title: Motorola HT 1000 & url: https://swap.qth.com/send-to-friend.php?counter=1524098",
+    "title: DAIWA CN801 HP type WATT METER 2KW & url: https://swap.qth.com/send-to-friend.php?counter=1524076",
+    "title: WTB/Trade & url: https://swap.qth.com/send-to-friend.php?counter=1524058",
+    "title: trade Uniden BCD-436HP for BCD-536HP & url: https://swap.qth.com/send-to-friend.php?counter=1523927",
+    "title: WTB  10 GHz Gear & url: https://swap.qth.com/send-to-friend.php?counter=1523911",
+    "title: ICOM IC-2300H & url: https://swap.qth.com/send-to-friend.php?counter=1523888",
+    "title: For sale Swan 250C & url: https://swap.qth.com/send-to-friend.php?counter=1522343",
+    "title: For Sale Hallicrafter SR42A and HA26 & url: https://swap.qth.com/send-to-friend.php?counter=1522268",
+    "title: GE MVPs for sale & url: https://swap.qth.com/send-to-friend.php?counter=1523583",
+    "title: KLM ECHO II w/book for sale.. & url: https://swap.qth.com/send-to-friend.php?counter=1523831",
+    "title: TYT9800 & url: https://swap.qth.com/send-to-friend.php?counter=1523823",
+    "title: Icom MBF 1. mount & url: https://swap.qth.com/send-to-friend.php?counter=1523804",
+    "title: VRN7500  UHF &VHF DUAL BAND  WITH VGC HM & url: https://swap.qth.com/send-to-friend.php?counter=1523783",
+    "title: Icom IC-3200 VHF/UHF Techie Special & url: https://swap.qth.com/send-to-friend.php?counter=1523776"
+  ]
+}
+
+----------------------------------------------------------------------
+NOW LETS CHECK OUT EBAY...
+----------------------------------------------------------------------
+
+getting the average sell prices for YAESU FTM-7250DR between $117 and $525
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=YAESU%20FTM-7250DR&_udlo=117&_udhi=525&rt=nc&LH_Complete=1
+YAESU FTM-7250DR: found 5 completed listings
+
+getting the average sell prices for Yaesu Ft-2DR between $207 and $930
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20Ft-2DR&_udlo=207&_udhi=930&rt=nc&LH_Complete=1
+Yaesu Ft-2DR: found 18 completed listings
+
+getting the average sell prices for Icom IC-3AT 220 between $77 and $345
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Icom%20IC-3AT%20220&_udlo=77&_udhi=345&rt=nc&LH_Complete=1
+Icom IC-3AT 220: found 0 completed listings
+
+getting the average sell prices for Kenwood TM-D710A between $250 and $1125
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TM-D710A&_udlo=250&_udhi=1125&rt=nc&LH_Complete=1
+Kenwood TM-D710A: found 4 completed listings
+
+getting the average sell prices for Kenwood TR-9000 between $200 and $900
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TR-9000&_udlo=200&_udhi=900&rt=nc&LH_Complete=1
+Kenwood TR-9000: found 4 completed listings
+
+getting the average sell prices for Yaesu Ft7900R/E between $117 and $525
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20Ft7900R%2FE&_udlo=117&_udhi=525&rt=nc&LH_Complete=1
+Yaesu Ft7900R/E: found 2 completed listings
+
+getting the average sell prices for Icom IC-910H between $600 and $2700
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Icom%20IC-910H&_udlo=600&_udhi=2700&rt=nc&LH_Complete=1
+Icom IC-910H: found 2 completed listings
+
+getting the average sell prices for Yaesu FT-2700 between $83 and $375
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20FT-2700&_udlo=83&_udhi=375&rt=nc&LH_Complete=1
+Yaesu FT-2700: found 0 completed listings
+
+getting the average sell prices for Kenwood 2M between $217 and $975
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%202M&_udlo=217&_udhi=975&rt=nc&LH_Complete=1
+Kenwood 2M: found 36 completed listings
+
+getting the average sell prices for Yaesu FT-2900R between $83 and $375
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20FT-2900R&_udlo=83&_udhi=375&rt=nc&LH_Complete=1
+Yaesu FT-2900R: found 10 completed listings
+
+getting the average sell prices for Kenwood TM-D710G between $267 and $1200
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TM-D710G&_udlo=267&_udhi=1200&rt=nc&LH_Complete=1
+Kenwood TM-D710G: found 1 completed listings
+
+getting the average sell prices for Icom 2720H between $150 and $675
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Icom%202720H&_udlo=150&_udhi=675&rt=nc&LH_Complete=1
+Icom 2720H: found 3 completed listings
+
+getting the average sell prices for Kenwood TM221a between $83 and $375
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TM221a&_udlo=83&_udhi=375&rt=nc&LH_Complete=1
+Kenwood TM221a: found 0 completed listings
+
+getting the average sell prices for Kenwood TM-D710A between $267 and $1200
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TM-D710A&_udlo=267&_udhi=1200&rt=nc&LH_Complete=1
+Kenwood TM-D710A: found 4 completed listings
+
+getting the average sell prices for Kenwood TM 741-a between $200 and $900
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TM%20741-a&_udlo=200&_udhi=900&rt=nc&LH_Complete=1
+Kenwood TM 741-a: found 3 completed listings
+
+getting the average sell prices for Kenwood TH 741A between $200 and $900
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TH%20741A&_udlo=200&_udhi=900&rt=nc&LH_Complete=1
+Kenwood TH 741A: found 0 completed listings
+
+getting the average sell prices for Yaesu FTM-10R between $233 and $1050
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20FTM-10R&_udlo=233&_udhi=1050&rt=nc&LH_Complete=1
+Yaesu FTM-10R: found 4 completed listings
+
+getting the average sell prices for Yaesu FT 726R between $300 and $1350
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20FT%20726R&_udlo=300&_udhi=1350&rt=nc&LH_Complete=1
+Yaesu FT 726R: found 3 completed listings
+
+getting the average sell prices for icom 51A between $267 and $1200
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=icom%2051A&_udlo=267&_udhi=1200&rt=nc&LH_Complete=1
+icom 51A: found 27 completed listings
+
+getting the average sell prices for Icom IC-9700 between $100 and $450
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Icom%20IC-9700&_udlo=100&_udhi=450&rt=nc&LH_Complete=1
+Icom IC-9700: found 4 completed listings
+
+getting the average sell prices for ICOM IC910h between $433 and $1950
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=ICOM%20IC910h&_udlo=433&_udhi=1950&rt=nc&LH_Complete=1
+ICOM IC910h: found 2 completed listings
+
+getting the average sell prices for Kenwood 742A between $317 and $1425
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20742A&_udlo=317&_udhi=1425&rt=nc&LH_Complete=1
+Kenwood 742A: found 7 completed listings
+
+getting the average sell prices for Yaesu ft-7900 between $97 and $435
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20ft-7900&_udlo=97&_udhi=435&rt=nc&LH_Complete=1
+Yaesu ft-7900: found 18 completed listings
+
+getting the average sell prices for Kenwood TR-7625 between $130 and $585
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TR-7625&_udlo=130&_udhi=585&rt=nc&LH_Complete=1
+Kenwood TR-7625: found 2 completed listings
+
+
+----------------------------------------------------------------------
+TOP 10 DEALS from https://swap.qth.com/c_radiovhf.php
+----------------------------------------------------------------------
+
+1. Yaesu ft-7900
+selling for $145 on QTH - https://swap.qth.com/send-to-friend.php?counter=1523757 (posted on 01/24/21)
+and $236 on eBay across 18 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20ft-7900&_udlo=97&_udhi=435&rt=nc&LH_Complete=1
+for a potential gain of $91 (63%)
+
+2. Yaesu Ft7900R/E
+selling for $175 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525337 (posted on 02/04/21)
+and $247 on eBay across 2 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20Ft7900R%2FE&_udlo=117&_udhi=525&rt=nc&LH_Complete=1
+for a potential gain of $72 (41%)
+
+3. Kenwood TM-D710A
+selling for $375 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525340 (posted on 02/04/21)
+and $443 on eBay across 4 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TM-D710A&_udlo=250&_udhi=1125&rt=nc&LH_Complete=1
+for a potential gain of $68 (18%)
+
+4. Yaesu FT-2900R
+selling for $125 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525162 (posted on 02/03/21)
+and $146 on eBay across 10 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20FT-2900R&_udlo=83&_udhi=375&rt=nc&LH_Complete=1
+for a potential gain of $21 (17%)
+
+5. Kenwood TM 741-a
+selling for $300 on QTH - https://swap.qth.com/send-to-friend.php?counter=1524769 (posted on 01/31/21)
+and $344 on eBay across 3 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TM%20741-a&_udlo=200&_udhi=900&rt=nc&LH_Complete=1
+for a potential gain of $44 (15%)
+
+6. ICOM IC910h
+selling for $650 on QTH - https://swap.qth.com/send-to-friend.php?counter=1524134 (posted on 01/27/21)
+and $740 on eBay across 2 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=ICOM%20IC910h&_udlo=433&_udhi=1950&rt=nc&LH_Complete=1
+for a potential gain of $90 (14%)
+
+7. YAESU FTM-7250DR
+selling for $175 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525671 (posted on 02/06/21)
+and $196 on eBay across 5 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=YAESU%20FTM-7250DR&_udlo=117&_udhi=525&rt=nc&LH_Complete=1
+for a potential gain of $21 (12%)
+
+8. Kenwood TM-D710A
+selling for $400 on QTH - https://swap.qth.com/send-to-friend.php?counter=1524758 (posted on 01/31/21)
+and $443 on eBay across 4 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TM-D710A&_udlo=267&_udhi=1200&rt=nc&LH_Complete=1
+for a potential gain of $43 (11%)
+
+9. Kenwood TR-9000
+selling for $300 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525407 (posted on 02/05/21)
+and $325 on eBay across 4 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TR-9000&_udlo=200&_udhi=900&rt=nc&LH_Complete=1
+for a potential gain of $25 (8%)
+
+10. Kenwood 2M
+selling for $325 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525223 (posted on 02/04/21)
+and $344 on eBay across 36 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%202M&_udlo=217&_udhi=975&rt=nc&LH_Complete=1
+for a potential gain of $19 (6%)
+

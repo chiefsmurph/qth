@@ -1,0 +1,469 @@
+
+----------------------------------------------------------------------
+INITIALIZING PROGRAM...
+----------------------------------------------------------------------
+
+starting by getting all the posts from QTH starting at https://swap.qth.com/c_radiohf.php...
+going to go back 10 pages....
+minPrice: $110 & maxPrice: $3000
+initializing puppeteer...
+
+----------------------------------------------------------------------
+SCRAPING POSTS FROM QTH.com
+----------------------------------------------------------------------
+
+scraping https://swap.qth.com/c_radiohf.php (page 1)
+scraping https://swap.qth.com/c_radiohf.php?page=2 (page 2)
+scraping https://swap.qth.com/c_radiohf.php?page=3 (page 3)
+scraping https://swap.qth.com/c_radiohf.php?page=4 (page 4)
+scraping https://swap.qth.com/c_radiohf.php?page=5 (page 5)
+scraping https://swap.qth.com/c_radiohf.php?page=6 (page 6)
+scraping https://swap.qth.com/c_radiohf.php?page=7 (page 7)
+scraping https://swap.qth.com/c_radiohf.php?page=8 (page 8)
+scraping https://swap.qth.com/c_radiohf.php?page=9 (page 9)
+scraping https://swap.qth.com/c_radiohf.php?page=10 (page 10)
+
+----------------------------------------------------------------------
+ANALYZING POSTS...
+----------------------------------------------------------------------
+
+analyzing WTB KENWOOD MOBLE LIKE A TS 120.....
+analyzing Kenwood TS-530 SP.....
+analyzing Wanted   Flex type usb controller.....
+analyzing KENWOOD TS-890 WITH SP-890.....
+analyzing PALSTAR PM2000A WATTMETER.....
+analyzing For sale, Xiegu GSOC latest firmware.....
+analyzing For sale: Icom IC-7700 w/all accessories.....
+analyzing FOR SALE ***** FT991 (not the A).....
+analyzing FS: Elecraft K3/100 with extras.....
+analyzing MOTOROLA  SPEAKER.....
+analyzing W T B ten tec  eagle.....
+analyzing WTB icom 7300.....
+analyzing WANTED: IC-R7000.....
+analyzing TRADE: FLEXRADIO 3000 TRANSCEIVER.....
+analyzing WTB:  Hardrock HR50 Amplifier.....
+analyzing Kenwood TS-440S /AT Good Condition.....
+analyzing Kenwood SP-230 Speakers With Filters.....
+analyzing Sale - Kenwood TS-870 Transceiver.....
+analyzing HEIL ICOM CC1I.....
+analyzing FS: Hammarlund HQ-110 Ham RCVR.....
+analyzing FT900 Yaesu with issues.....
+analyzing FS: Hallicrafters S38 Receiver, RESTORED.....
+analyzing Heil CC1-XLR-YM3 pin xlr to 8pin modular.....
+analyzing ICOM IC-756 PRO II.....
+analyzing Yaesu FT 857D.....
+analyzing PALSTAR R-30A.  $425.....
+analyzing LNR LD-5 QRP Transceiver.....
+analyzing Tentec jupiter sold pending Lou.....
+analyzing WTB. Kenwood TS-2000.....
+analyzing Yaesu FT-450.....
+analyzing Elecraft K3 Parts wanted!.....
+analyzing WTB Yaesu XF-8.9GA AM Filter for FT-901.....
+analyzing FOR SALE: Drake Station - TR7/PS7/MS7.....
+analyzing Kenwood SP-430 Speaker.....
+analyzing ICOM 751-A TRANSCEIVER.....
+analyzing yaesu 107m.....
+analyzing FS GC Electronics SWR/Watt Meter.....
+analyzing Kenwood TS-570S  Excellent condition.....
+analyzing GOOD DEALS.....
+analyzing Yaesu FT-920.....
+analyzing IC-7300 for sale WTB Flex 6300-AT.....
+analyzing FS Kenwood MC 60.....
+analyzing FS Vibroplex chrome Iambic.....
+analyzing DRAKE MS-4 SPEAKER.....
+analyzing Icom 775DSP.....
+analyzing COLLINS AM FILTER FOR 753B/C HQ-215.....
+analyzing Elecraft K2/10.....
+analyzing For Sale:  Kenwood VFO-230.....
+analyzing Elecraft KX3 and Accessories.....
+analyzing hf/vhf power cords.....
+analyzing Wanted.....
+analyzing For Trade or will buy.....
+analyzing FS: Kenwood MC-43 microphone, NEW!.....
+analyzing kenwood TS-50/AT-50.....
+analyzing ICOM IC-7610 Transceiver like new.....
+analyzing WTB: Kachina 505DSP.....
+analyzing Drake SP 75 looks like New  WB4HFN.....
+analyzing Ten Tec Orion Omni VI parts.....
+analyzing Ten Tec Orion Omni VI parts.....
+analyzing MFJ-1025 Noise Canceling Signal Enhancer.....
+analyzing FOR SALE Ten Tec Argonaut V.....
+analyzing Yaesu FT1000MP.....
+analyzing Kenwood TS2000.....
+analyzing Kenwood TS430S.....
+analyzing FT FLEX 3000 SDR RADIO.....
+analyzing Wanted: IF-2000 Board for FT-2000.....
+analyzing FOR TRADE: FLEXRADIO 3000 TRANSCEIVER.....
+analyzing Kachina 505DSP HF Transceiver.....
+analyzing At50 tuner.....
+analyzing WANTED: Non-working TenTec Eagle.....
+analyzing For Trade : Yaesu ft991a.....
+analyzing F/S 455 AND 500 KHZ FILTERS.....
+analyzing F/S KENWOOD, TRIO, YAESU, DRAKE FILTERS.....
+analyzing Kenwood TS-570DG.....
+analyzing FS: PFR-3 Portable Field Radio.....
+analyzing WANTED SunSDR2 QRP 5 Watt transceiver.....
+analyzing Collins HF-8054A part of HF-80.....
+analyzing Want to buy FT 450D in close driving ......
+analyzing For Sale: Icom R-71a receiver.....
+analyzing SALE Mint Kenwood PS 52 Power Supply.....
+analyzing LOGIKEY  COMPANY- MODEL # K-1 KEYER.....
+analyzing YAESU SP-8 EXTERNAL STATION SPEAKER.....
+analyzing JPS/DATONG/TIMEWAVE/PALOMAR/CLEERSP.....
+analyzing Wanted Icom 756 Pro III Pro 3.....
+analyzing Wanted - Tech Special Transceiver.....
+analyzing Icom R-8600 Receiver "Wanted".....
+analyzing TEN-TEC  RX-350D.....
+analyzing WTB   Icom IC-718 or Yaesu FT-450D.....
+analyzing LOGIKEY  COMPANY- MODEL # K-1 KEYER.....
+analyzing YAESU SP-8 EXTERNAL STATION SPEAKER.....
+analyzing ALLIED/KNIGHT-KIT 83Y261 CRYSTAL SET.....
+analyzing ICE #124BX 80/75M TRANSCEIVING PREAMP.....
+analyzing JPS/DATONG/TIMEWAVE/PALOMAR/CLEERSP.....
+analyzing Kenwood/ICOM/Drake/Yaesu/Ten-Tec/Collins.....
+analyzing FS/TRADE  FLEXRADIO  FLEX-3000.....
+analyzing FS: ALINCO DX-70 HF TRANSCEIVER.....
+analyzing Want to Buy QRP "Radio Kit" transceiver.....
+analyzing Ten Tec Scouts with 13 band modules.....
+analyzing tentec scout.....
+analyzing Need repair tech.....
+
+
+----------------------------------------------------------------------
+FILTERING POSTS
+----------------------------------------------------------------------
+starting to filter by "is want to buy ad"....... current count: 100
+ignoring WTB KENWOOD MOBLE LIKE A TS 120 because "is want to buy ad"
+ignoring Wanted   Flex type usb controller because "is want to buy ad"
+ignoring KENWOOD TS-890 WITH SP-890 because "is want to buy ad"
+ignoring W T B ten tec  eagle because "is want to buy ad"
+ignoring WTB icom 7300 because "is want to buy ad"
+ignoring WANTED: IC-R7000 because "is want to buy ad"
+ignoring WTB:  Hardrock HR50 Amplifier because "is want to buy ad"
+ignoring WTB. Kenwood TS-2000 because "is want to buy ad"
+ignoring Elecraft K3 Parts wanted! because "is want to buy ad"
+ignoring WTB Yaesu XF-8.9GA AM Filter for FT-901 because "is want to buy ad"
+ignoring IC-7300 for sale WTB Flex 6300-AT because "is want to buy ad"
+ignoring Wanted because "is want to buy ad"
+ignoring WTB: Kachina 505DSP because "is want to buy ad"
+ignoring Wanted: IF-2000 Board for FT-2000 because "is want to buy ad"
+ignoring WANTED: Non-working TenTec Eagle because "is want to buy ad"
+ignoring WANTED SunSDR2 QRP 5 Watt transceiver because "is want to buy ad"
+ignoring Want to buy FT 450D in close driving . because "is want to buy ad"
+ignoring Wanted Icom 756 Pro III Pro 3 because "is want to buy ad"
+ignoring Wanted - Tech Special Transceiver because "is want to buy ad"
+ignoring Icom R-8600 Receiver "Wanted" because "is want to buy ad"
+ignoring WTB   Icom IC-718 or Yaesu FT-450D because "is want to buy ad"
+ignoring Want to Buy QRP "Radio Kit" transceiver because "is want to buy ad"
+removed 22 posts because "is want to buy ad"
+----------------------------------------------------------------------
+starting to filter by "is for parts"....... current count: 78
+ignoring Yaesu FT-450 because "is for parts"
+ignoring Need repair tech because "is for parts"
+removed 2 posts because "is for parts"
+----------------------------------------------------------------------
+starting to filter by "could not detect price"....... current count: 76
+ignoring Icom 775DSP because "could not detect price"
+ignoring COLLINS AM FILTER FOR 753B/C HQ-215 because "could not detect price"
+ignoring FT FLEX 3000 SDR RADIO because "could not detect price"
+ignoring For Trade : Yaesu ft991a because "could not detect price"
+removed 4 posts because "could not detect price"
+----------------------------------------------------------------------
+starting to filter by "could not detect model"....... current count: 72
+ignoring For sale, Xiegu GSOC latest firmware because "could not detect model"
+ignoring FOR SALE ***** FT991 (not the A) because "could not detect model"
+ignoring MOTOROLA  SPEAKER because "could not detect model"
+ignoring TRADE: FLEXRADIO 3000 TRANSCEIVER because "could not detect model"
+ignoring FS: Hammarlund HQ-110 Ham RCVR because "could not detect model"
+ignoring FT900 Yaesu with issues because "could not detect model"
+ignoring FS: Hallicrafters S38 Receiver, RESTORED because "could not detect model"
+ignoring Heil CC1-XLR-YM3 pin xlr to 8pin modular because "could not detect model"
+ignoring LNR LD-5 QRP Transceiver because "could not detect model"
+ignoring Tentec jupiter sold pending Lou because "could not detect model"
+ignoring FOR SALE: Drake Station - TR7/PS7/MS7 because "could not detect model"
+ignoring FS GC Electronics SWR/Watt Meter because "could not detect model"
+ignoring FS Vibroplex chrome Iambic because "could not detect model"
+ignoring DRAKE MS-4 SPEAKER because "could not detect model"
+ignoring hf/vhf power cords because "could not detect model"
+ignoring Drake SP 75 looks like New  WB4HFN because "could not detect model"
+ignoring Ten Tec Orion Omni VI parts because "could not detect model"
+ignoring Ten Tec Orion Omni VI parts because "could not detect model"
+ignoring MFJ-1025 Noise Canceling Signal Enhancer because "could not detect model"
+ignoring FOR SALE Ten Tec Argonaut V because "could not detect model"
+ignoring FOR TRADE: FLEXRADIO 3000 TRANSCEIVER because "could not detect model"
+ignoring Kachina 505DSP HF Transceiver because "could not detect model"
+ignoring At50 tuner because "could not detect model"
+ignoring F/S 455 AND 500 KHZ FILTERS because "could not detect model"
+ignoring F/S KENWOOD, TRIO, YAESU, DRAKE FILTERS because "could not detect model"
+ignoring FS: PFR-3 Portable Field Radio because "could not detect model"
+ignoring Collins HF-8054A part of HF-80 because "could not detect model"
+ignoring LOGIKEY  COMPANY- MODEL # K-1 KEYER because "could not detect model"
+ignoring JPS/DATONG/TIMEWAVE/PALOMAR/CLEERSP because "could not detect model"
+ignoring TEN-TEC  RX-350D because "could not detect model"
+ignoring LOGIKEY  COMPANY- MODEL # K-1 KEYER because "could not detect model"
+ignoring ALLIED/KNIGHT-KIT 83Y261 CRYSTAL SET because "could not detect model"
+ignoring ICE #124BX 80/75M TRANSCEIVING PREAMP because "could not detect model"
+ignoring JPS/DATONG/TIMEWAVE/PALOMAR/CLEERSP because "could not detect model"
+ignoring Kenwood/ICOM/Drake/Yaesu/Ten-Tec/Collins because "could not detect model"
+ignoring FS/TRADE  FLEXRADIO  FLEX-3000 because "could not detect model"
+ignoring FS: ALINCO DX-70 HF TRANSCEIVER because "could not detect model"
+ignoring Ten Tec Scouts with 13 band modules because "could not detect model"
+ignoring tentec scout because "could not detect model"
+removed 39 posts because "could not detect model"
+----------------------------------------------------------------------
+starting to filter by "price too low"....... current count: 33
+ignoring Kenwood SP-230 Speakers With Filters because "price too low"
+ignoring HEIL ICOM CC1I because "price too low"
+ignoring Kenwood SP-430 Speaker because "price too low"
+ignoring GOOD DEALS because "price too low"
+ignoring FS Kenwood MC 60 because "price too low"
+ignoring Elecraft K2/10 because "price too low"
+ignoring Elecraft KX3 and Accessories because "price too low"
+ignoring FS: Kenwood MC-43 microphone, NEW! because "price too low"
+ignoring SALE Mint Kenwood PS 52 Power Supply because "price too low"
+removed 9 posts because "price too low"
+----------------------------------------------------------------------
+starting to filter by "price too high"....... current count: 24
+ignoring For sale: Icom IC-7700 w/all accessories because "price too high"
+removed 1 posts because "price too high"
+----------------------------------------------------------------------
+starting to filter by "description too many dollars signs"....... current count: 23
+removed 0 posts because "description too many dollars signs"
+----------------------------------------------------------------------
+starting to filter by "model name too long"....... current count: 23
+removed 0 posts because "model name too long"
+----------------------------------------------------------------------
+after filtering out the ones I could not analyze......posts of interest: 23
+{
+  "notOfInterest": [
+    "title: WTB KENWOOD MOBLE LIKE A TS 120 & url: https://swap.qth.com/send-to-friend.php?counter=1525516",
+    "title: Wanted   Flex type usb controller & url: https://swap.qth.com/send-to-friend.php?counter=1525675",
+    "title: KENWOOD TS-890 WITH SP-890 & url: https://swap.qth.com/send-to-friend.php?counter=1525334",
+    "title: For sale, Xiegu GSOC latest firmware & url: https://swap.qth.com/send-to-friend.php?counter=1525661",
+    "title: For sale: Icom IC-7700 w/all accessories & url: https://swap.qth.com/send-to-friend.php?counter=1525655",
+    "title: FOR SALE ***** FT991 (not the A) & url: https://swap.qth.com/send-to-friend.php?counter=1525589",
+    "title: MOTOROLA  SPEAKER & url: https://swap.qth.com/send-to-friend.php?counter=1525647",
+    "title: W T B ten tec  eagle & url: https://swap.qth.com/send-to-friend.php?counter=1525519",
+    "title: WTB icom 7300 & url: https://swap.qth.com/send-to-friend.php?counter=1525645",
+    "title: WANTED: IC-R7000 & url: https://swap.qth.com/send-to-friend.php?counter=1525642",
+    "title: TRADE: FLEXRADIO 3000 TRANSCEIVER & url: https://swap.qth.com/send-to-friend.php?counter=1525556",
+    "title: WTB:  Hardrock HR50 Amplifier & url: https://swap.qth.com/send-to-friend.php?counter=1525638",
+    "title: Kenwood SP-230 Speakers With Filters & url: https://swap.qth.com/send-to-friend.php?counter=1525635",
+    "title: HEIL ICOM CC1I & url: https://swap.qth.com/send-to-friend.php?counter=1525623",
+    "title: FS: Hammarlund HQ-110 Ham RCVR & url: https://swap.qth.com/send-to-friend.php?counter=1525608",
+    "title: FT900 Yaesu with issues & url: https://swap.qth.com/send-to-friend.php?counter=1524811",
+    "title: FS: Hallicrafters S38 Receiver, RESTORED & url: https://swap.qth.com/send-to-friend.php?counter=1525606",
+    "title: Heil CC1-XLR-YM3 pin xlr to 8pin modular & url: https://swap.qth.com/send-to-friend.php?counter=1525598",
+    "title: LNR LD-5 QRP Transceiver & url: https://swap.qth.com/send-to-friend.php?counter=1525590",
+    "title: Tentec jupiter sold pending Lou & url: https://swap.qth.com/send-to-friend.php?counter=1525457",
+    "title: WTB. Kenwood TS-2000 & url: https://swap.qth.com/send-to-friend.php?counter=1525582",
+    "title: Yaesu FT-450 & url: https://swap.qth.com/send-to-friend.php?counter=1525581",
+    "title: Elecraft K3 Parts wanted! & url: https://swap.qth.com/send-to-friend.php?counter=1525580",
+    "title: WTB Yaesu XF-8.9GA AM Filter for FT-901 & url: https://swap.qth.com/send-to-friend.php?counter=1525579",
+    "title: FOR SALE: Drake Station - TR7/PS7/MS7 & url: https://swap.qth.com/send-to-friend.php?counter=1519395",
+    "title: Kenwood SP-430 Speaker & url: https://swap.qth.com/send-to-friend.php?counter=1525575",
+    "title: FS GC Electronics SWR/Watt Meter & url: https://swap.qth.com/send-to-friend.php?counter=1525568",
+    "title: GOOD DEALS & url: https://swap.qth.com/send-to-friend.php?counter=1525437",
+    "title: IC-7300 for sale WTB Flex 6300-AT & url: https://swap.qth.com/send-to-friend.php?counter=1525554",
+    "title: FS Kenwood MC 60 & url: https://swap.qth.com/send-to-friend.php?counter=1525553",
+    "title: FS Vibroplex chrome Iambic & url: https://swap.qth.com/send-to-friend.php?counter=1525546",
+    "title: DRAKE MS-4 SPEAKER & url: https://swap.qth.com/send-to-friend.php?counter=1525542",
+    "title: Icom 775DSP & url: https://swap.qth.com/send-to-friend.php?counter=1524212",
+    "title: COLLINS AM FILTER FOR 753B/C HQ-215 & url: https://swap.qth.com/send-to-friend.php?counter=1525536",
+    "title: Elecraft K2/10 & url: https://swap.qth.com/send-to-friend.php?counter=1525282",
+    "title: Elecraft KX3 and Accessories & url: https://swap.qth.com/send-to-friend.php?counter=1525506",
+    "title: hf/vhf power cords & url: https://swap.qth.com/send-to-friend.php?counter=1525252",
+    "title: Wanted & url: https://swap.qth.com/send-to-friend.php?counter=1525342",
+    "title: FS: Kenwood MC-43 microphone, NEW! & url: https://swap.qth.com/send-to-friend.php?counter=1524735",
+    "title: WTB: Kachina 505DSP & url: https://swap.qth.com/send-to-friend.php?counter=1525498",
+    "title: Drake SP 75 looks like New  WB4HFN & url: https://swap.qth.com/send-to-friend.php?counter=1510215",
+    "title: Ten Tec Orion Omni VI parts & url: https://swap.qth.com/send-to-friend.php?counter=1519464",
+    "title: Ten Tec Orion Omni VI parts & url: https://swap.qth.com/send-to-friend.php?counter=1519516",
+    "title: MFJ-1025 Noise Canceling Signal Enhancer & url: https://swap.qth.com/send-to-friend.php?counter=1525491",
+    "title: FOR SALE Ten Tec Argonaut V & url: https://swap.qth.com/send-to-friend.php?counter=1525489",
+    "title: FT FLEX 3000 SDR RADIO & url: https://swap.qth.com/send-to-friend.php?counter=1525473",
+    "title: Wanted: IF-2000 Board for FT-2000 & url: https://swap.qth.com/send-to-friend.php?counter=1525357",
+    "title: FOR TRADE: FLEXRADIO 3000 TRANSCEIVER & url: https://swap.qth.com/send-to-friend.php?counter=1525462",
+    "title: Kachina 505DSP HF Transceiver & url: https://swap.qth.com/send-to-friend.php?counter=1525452",
+    "title: At50 tuner & url: https://swap.qth.com/send-to-friend.php?counter=1525450",
+    "title: WANTED: Non-working TenTec Eagle & url: https://swap.qth.com/send-to-friend.php?counter=1525446",
+    "title: For Trade : Yaesu ft991a & url: https://swap.qth.com/send-to-friend.php?counter=1525438",
+    "title: F/S 455 AND 500 KHZ FILTERS & url: https://swap.qth.com/send-to-friend.php?counter=1525424",
+    "title: F/S KENWOOD, TRIO, YAESU, DRAKE FILTERS & url: https://swap.qth.com/send-to-friend.php?counter=1524734",
+    "title: FS: PFR-3 Portable Field Radio & url: https://swap.qth.com/send-to-friend.php?counter=1521770",
+    "title: WANTED SunSDR2 QRP 5 Watt transceiver & url: https://swap.qth.com/send-to-friend.php?counter=1525405",
+    "title: Collins HF-8054A part of HF-80 & url: https://swap.qth.com/send-to-friend.php?counter=1518189",
+    "title: Want to buy FT 450D in close driving . & url: https://swap.qth.com/send-to-friend.php?counter=1525402",
+    "title: SALE Mint Kenwood PS 52 Power Supply & url: https://swap.qth.com/send-to-friend.php?counter=1524178",
+    "title: LOGIKEY  COMPANY- MODEL # K-1 KEYER & url: https://swap.qth.com/send-to-friend.php?counter=1525400",
+    "title: JPS/DATONG/TIMEWAVE/PALOMAR/CLEERSP & url: https://swap.qth.com/send-to-friend.php?counter=1525398",
+    "title: Wanted Icom 756 Pro III Pro 3 & url: https://swap.qth.com/send-to-friend.php?counter=1525395",
+    "title: Wanted - Tech Special Transceiver & url: https://swap.qth.com/send-to-friend.php?counter=1525394",
+    "title: Icom R-8600 Receiver \"Wanted\" & url: https://swap.qth.com/send-to-friend.php?counter=1525393",
+    "title: TEN-TEC  RX-350D & url: https://swap.qth.com/send-to-friend.php?counter=1525392",
+    "title: WTB   Icom IC-718 or Yaesu FT-450D & url: https://swap.qth.com/send-to-friend.php?counter=1524832",
+    "title: LOGIKEY  COMPANY- MODEL # K-1 KEYER & url: https://swap.qth.com/send-to-friend.php?counter=1525386",
+    "title: ALLIED/KNIGHT-KIT 83Y261 CRYSTAL SET & url: https://swap.qth.com/send-to-friend.php?counter=1525377",
+    "title: ICE #124BX 80/75M TRANSCEIVING PREAMP & url: https://swap.qth.com/send-to-friend.php?counter=1525376",
+    "title: JPS/DATONG/TIMEWAVE/PALOMAR/CLEERSP & url: https://swap.qth.com/send-to-friend.php?counter=1525373",
+    "title: Kenwood/ICOM/Drake/Yaesu/Ten-Tec/Collins & url: https://swap.qth.com/send-to-friend.php?counter=1524232",
+    "title: FS/TRADE  FLEXRADIO  FLEX-3000 & url: https://swap.qth.com/send-to-friend.php?counter=1525368",
+    "title: FS: ALINCO DX-70 HF TRANSCEIVER & url: https://swap.qth.com/send-to-friend.php?counter=1525364",
+    "title: Want to Buy QRP \"Radio Kit\" transceiver & url: https://swap.qth.com/send-to-friend.php?counter=1524369",
+    "title: Ten Tec Scouts with 13 band modules & url: https://swap.qth.com/send-to-friend.php?counter=1525356",
+    "title: tentec scout & url: https://swap.qth.com/send-to-friend.php?counter=1525355",
+    "title: Need repair tech & url: https://swap.qth.com/send-to-friend.php?counter=1525353"
+  ]
+}
+
+----------------------------------------------------------------------
+NOW LETS CHECK OUT EBAY...
+----------------------------------------------------------------------
+
+getting the average sell prices for Kenwood TS-530 between $183 and $825
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TS-530&_udlo=183&_udhi=825&rt=nc&LH_Complete=1
+Kenwood TS-530: found 15 completed listings
+
+getting the average sell prices for PALSTAR PM2000A between $113 and $510
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=PALSTAR%20PM2000A&_udlo=113&_udhi=510&rt=nc&LH_Complete=1
+PALSTAR PM2000A: found 0 completed listings
+
+getting the average sell prices for Elecraft K3/100 between $1033 and $4650
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Elecraft%20K3%2F100&_udlo=1033&_udhi=4650&rt=nc&LH_Complete=1
+Elecraft K3/100: found 0 completed listings
+
+getting the average sell prices for Kenwood TS-440S between $250 and $1125
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TS-440S&_udlo=250&_udhi=1125&rt=nc&LH_Complete=1
+Kenwood TS-440S: found 30 completed listings
+
+getting the average sell prices for Kenwood TS-870 between $367 and $1650
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TS-870&_udlo=367&_udhi=1650&rt=nc&LH_Complete=1
+Kenwood TS-870: found 5 completed listings
+
+getting the average sell prices for ICOM IC-756 between $550 and $2475
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=ICOM%20IC-756&_udlo=550&_udhi=2475&rt=nc&LH_Complete=1
+ICOM IC-756: found 23 completed listings
+
+getting the average sell prices for Yaesu FT 857D between $450 and $2025
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20FT%20857D&_udlo=450&_udhi=2025&rt=nc&LH_Complete=1
+Yaesu FT 857D: found 34 completed listings
+
+getting the average sell prices for PALSTAR R-30A between $283 and $1275
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=PALSTAR%20R-30A&_udlo=283&_udhi=1275&rt=nc&LH_Complete=1
+PALSTAR R-30A: found 6 completed listings
+
+getting the average sell prices for ICOM 751-A between $267 and $1200
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=ICOM%20751-A&_udlo=267&_udhi=1200&rt=nc&LH_Complete=1
+ICOM 751-A: found 3 completed listings
+
+getting the average sell prices for yaesu 107m between $433 and $1950
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=yaesu%20107m&_udlo=433&_udhi=1950&rt=nc&LH_Complete=1
+yaesu 107m: found 1 completed listings
+
+getting the average sell prices for Kenwood TS-570S between $353 and $1590
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TS-570S&_udlo=353&_udhi=1590&rt=nc&LH_Complete=1
+Kenwood TS-570S: found 6 completed listings
+
+getting the average sell prices for Yaesu FT-920 FT-920 between $467 and $2100
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20FT-920%20FT-920&_udlo=467&_udhi=2100&rt=nc&LH_Complete=1
+Yaesu FT-920 FT-920: found 8 completed listings
+
+getting the average sell prices for Kenwood VFO-230 between $190 and $855
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20VFO-230&_udlo=190&_udhi=855&rt=nc&LH_Complete=1
+Kenwood VFO-230: found 4 completed listings
+
+getting the average sell prices for Icom 7600 between $967 and $4350
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Icom%207600&_udlo=967&_udhi=4350&rt=nc&LH_Complete=1
+Icom 7600: found 15 completed listings
+
+getting the average sell prices for kenwood TS-50/AT-50 between $300 and $1350
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=kenwood%20TS-50%2FAT-50&_udlo=300&_udhi=1350&rt=nc&LH_Complete=1
+kenwood TS-50/AT-50: found 0 completed listings
+
+getting the average sell prices for ICOM IC-7610 between $1767 and $7950
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=ICOM%20IC-7610&_udlo=1767&_udhi=7950&rt=nc&LH_Complete=1
+ICOM IC-7610: found 6 completed listings
+
+getting the average sell prices for Yaesu FT1000MP between $667 and $3000
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20FT1000MP&_udlo=667&_udhi=3000&rt=nc&LH_Complete=1
+Yaesu FT1000MP: found 18 completed listings
+
+getting the average sell prices for Kenwood TS2000 between $533 and $2400
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TS2000&_udlo=533&_udhi=2400&rt=nc&LH_Complete=1
+Kenwood TS2000: found 32 completed listings
+
+getting the average sell prices for Kenwood TS430S between $300 and $1350
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TS430S&_udlo=300&_udhi=1350&rt=nc&LH_Complete=1
+Kenwood TS430S: found 8 completed listings
+
+getting the average sell prices for Kenwood TS-570DG between $417 and $1875
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TS-570DG&_udlo=417&_udhi=1875&rt=nc&LH_Complete=1
+Kenwood TS-570DG: found 7 completed listings
+
+getting the average sell prices for Icom R-71a between $300 and $1350
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=Icom%20R-71a&_udlo=300&_udhi=1350&rt=nc&LH_Complete=1
+Icom R-71a: found 7 completed listings
+
+getting the average sell prices for YAESU SP-8 between $83 and $375
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=YAESU%20SP-8&_udlo=83&_udhi=375&rt=nc&LH_Complete=1
+YAESU SP-8: found 9 completed listings
+
+getting the average sell prices for YAESU SP-8 between $83 and $375
+url: https://www.ebay.com/sch/i.html?_from=R40&_nkw=YAESU%20SP-8&_udlo=83&_udhi=375&rt=nc&LH_Complete=1
+YAESU SP-8: found 9 completed listings
+
+
+----------------------------------------------------------------------
+TOP 10 DEALS from https://swap.qth.com/c_radiohf.php
+----------------------------------------------------------------------
+
+1. Kenwood TS-870
+selling for $550 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525488 (posted on 02/05/21)
+and $904 on eBay across 5 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TS-870&_udlo=367&_udhi=1650&rt=nc&LH_Complete=1
+for a potential gain of $354 (64%)
+
+2. Yaesu FT 857D
+selling for $675 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525596 (posted on 02/06/21)
+and $1049 on eBay across 34 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20FT%20857D&_udlo=450&_udhi=2025&rt=nc&LH_Complete=1
+for a potential gain of $374 (55%)
+
+3. ICOM 751-A
+selling for $400 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525261 (posted on 02/04/21)
+and $546 on eBay across 3 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=ICOM%20751-A&_udlo=267&_udhi=1200&rt=nc&LH_Complete=1
+for a potential gain of $146 (37%)
+
+4. Kenwood TS-570S
+selling for $530 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525562 (posted on 02/06/21)
+and $672 on eBay across 6 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TS-570S&_udlo=353&_udhi=1590&rt=nc&LH_Complete=1
+for a potential gain of $142 (27%)
+
+5. Yaesu FT1000MP
+selling for $1000 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525485 (posted on 02/05/21)
+and $1254 on eBay across 18 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Yaesu%20FT1000MP&_udlo=667&_udhi=3000&rt=nc&LH_Complete=1
+for a potential gain of $254 (25%)
+
+6. PALSTAR R-30A
+selling for $425 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525593 (posted on 02/06/21)
+and $522 on eBay across 6 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=PALSTAR%20R-30A&_udlo=283&_udhi=1275&rt=nc&LH_Complete=1
+for a potential gain of $97 (23%)
+
+7. yaesu 107m
+selling for $650 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525571 (posted on 02/06/21)
+and $798 on eBay across 1 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=yaesu%20107m&_udlo=433&_udhi=1950&rt=nc&LH_Complete=1
+for a potential gain of $148 (23%)
+
+8. Kenwood TS-530
+selling for $275 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525677 (posted on 02/06/21)
+and $330 on eBay across 15 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TS-530&_udlo=183&_udhi=825&rt=nc&LH_Complete=1
+for a potential gain of $55 (20%)
+
+9. Kenwood TS2000
+selling for $800 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525480 (posted on 02/05/21)
+and $960 on eBay across 32 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20TS2000&_udlo=533&_udhi=2400&rt=nc&LH_Complete=1
+for a potential gain of $160 (20%)
+
+10. Kenwood VFO-230
+selling for $285 on QTH - https://swap.qth.com/send-to-friend.php?counter=1525526 (posted on 02/06/21)
+and $338 on eBay across 4 listings - https://www.ebay.com/sch/i.html?_from=R40&_nkw=Kenwood%20VFO-230&_udlo=190&_udhi=855&rt=nc&LH_Complete=1
+for a potential gain of $53 (19%)
+
