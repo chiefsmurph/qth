@@ -95,6 +95,8 @@ const getModel = ({ title, description }) => {
         'Kenwood',
         'DRAKE',
         'Kachina',
+        'Galaxy',
+        'Swan',
         'Collins',
         'TEN-TEC',
         'Alinco',
@@ -104,6 +106,7 @@ const getModel = ({ title, description }) => {
         'AOR',
         'IC',
         'FT',
+        'TS',
     ];
 
     const makesMatches = makes.map(make => 
