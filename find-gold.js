@@ -149,7 +149,7 @@ module.exports = async ({ url, lastScrape }) => {
 
     // console.log(analyzedEbay);
     const foundDeals = analyzedEbay
-        .filter(post => post.analyzedEbay.diff > 20 && post.analyzedEbay.percent > 20)
+        .filter(post => post.analyzedEbay.diff > 100 && post.analyzedEbay.percent > 30)
         .slice(0, 10);
 
     let foundDealsString;
