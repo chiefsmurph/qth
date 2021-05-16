@@ -30,7 +30,7 @@ module.exports = async ({ url, lastScrape }) => {
     lastScrape && console.log(`lastScrape: ${lastScrape}`);
 
     console.log('initializing puppeteer...');
-    const browser = await puppeteer.launch({ headless: false });
+    const browser = await puppeteer.launch({ headless: true });
 
 
 
