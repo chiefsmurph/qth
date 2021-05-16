@@ -30,7 +30,7 @@ module.exports = async ({ url, lastScrape }) => {
     lastScrape && console.log(`lastScrape: ${lastScrape}`);
 
     console.log('initializing puppeteer...');
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({ headless: false });
 
 
 
@@ -42,12 +42,9 @@ module.exports = async ({ url, lastScrape }) => {
 
     if (!posts.length) {
         console.log('no new posts...');
-        await browser.close();    
-        return {
-            newPostsSinceLastScrape: 0,
-        };
+        await browser.close();
+        return { newPostsSinceLastScrape: 0 };
     }
-
 
     console.log("\n----------------------------------------------------------------------");
     console.log(`ANALYZING POSTS...`);

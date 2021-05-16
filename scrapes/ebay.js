@@ -15,18 +15,21 @@ module.exports = async ({ browser, query, minPrice, maxPrice }) => {
     await page.goto(url, {waitUntil: 'networkidle2' });
 
     const { listings, resultCount } = await page.evaluate(() => {
-        const resultCount = Number(document.querySelector('.srp-controls__count-heading .BOLD').textContent);
+        const resultCount = Number((document.querySelector('.srp-controls__count-heading .BOLD') || {}).textContent);
         const listings = [...document.querySelectorAll('.s-item__price')]
             .filter(Boolean)
-            .map(listing => ({
-                price: Number(listing.textContent.slice(1).split(',').join('')),
-                sold: Boolean(listing.children && listing.children.length),
-            }))
+            .map(listing => {
+                const { textContent = '', children } = listing || {};
+                return {
+                    price: Number(textContent.slice(1).split(',').join('')),
+                    sold: Boolean(children && children.length),
+                };
+            })
             .slice(0, resultCount);
         return {
             listings,
             resultCount
-        }
+        };
     });
 
     await page.close();
