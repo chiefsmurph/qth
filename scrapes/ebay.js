@@ -17,6 +17,7 @@ module.exports = async ({ browser, query, minPrice, maxPrice }) => {
     const { listings, resultCount } = await page.evaluate(() => {
         const resultCount = Number(document.querySelector('.srp-controls__count-heading .BOLD').textContent);
         const listings = [...document.querySelectorAll('.s-item__price')]
+            .filter(Boolean)
             .map(listing => ({
                 price: Number(listing.textContent.slice(1).split(',').join('')),
                 sold: Boolean(listing.children && listing.children.length),
