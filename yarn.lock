@@ -203,6 +203,11 @@ mkdirp-classic@^0.5.2:
   resolved "https://registry.yarnpkg.com/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz#fa10c9115cc6d8865be221ba47ee9bed78601113"
   integrity sha512-gKLcREMhtuZRwRAfqP3RFW+TK4JqApVBtOIftVgjuABpAtpxhPGaDcfvbhNvD0B8iD1oUr/txX35NjcaY6Ns/A==
 
+modern-random-ua@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/modern-random-ua/-/modern-random-ua-1.0.3.tgz#c6fca366e60ea9a793c9d99021533744d7f58c41"
+  integrity sha1-xvyjZuYOqaeTydmQIVM3RNf1jEE=
+
 ms@2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"

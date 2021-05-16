@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "gmail-send": "^1.8.10",
+    "modern-random-ua": "^1.0.3",
     "puppeteer": "^7.0.1"
   }
 }
