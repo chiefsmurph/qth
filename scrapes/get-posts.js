@@ -14,7 +14,7 @@ const getSinglePosts = async ({ browser, url }) => {
             }
         });
         const els = Array.from(
-            document.querySelectorAll('td dl > *')
+            document.querySelectorAll('dl > *')
         );
         let posts = els.chunk_inefficient(4);
         posts = posts.map(([title, description, listingInfo, contact]) => ({
@@ -31,6 +31,7 @@ const getSinglePosts = async ({ browser, url }) => {
         }))
         return posts;
     });
+    console.log({ posts })
     const nextPage = await page.evaluate(() => document.querySelector('[alt="Next"]').parentNode.parentNode.href);
     await page.close();
     return {
@@ -41,7 +42,7 @@ const getSinglePosts = async ({ browser, url }) => {
 
 
 
-module.exports = async ({ browser, url, maxPages = 20, lastScrape }) => {
+module.exports = async ({ browser, url, maxPages = 5, lastScrape }) => {
     let curPage = 1;
     let allPosts = [];
     let curUrl = url;
