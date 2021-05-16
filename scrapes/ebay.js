@@ -15,6 +15,7 @@ module.exports = async ({ browser, query, minPrice, maxPrice }) => {
     await page.goto(url, {waitUntil: 'networkidle2' });
 
     const { listings, resultCount } = await page.evaluate(() => {
+        console.log('ebay' + document.textContent);
         const resultCount = Number((document.querySelector('.srp-controls__count-heading .BOLD') || {}).textContent);
         const listings = [...document.querySelectorAll('.s-item__price')]
             .filter(Boolean)
